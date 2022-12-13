@@ -16,6 +16,7 @@
 
         html {
             min-height: 100vh;
+            
         }
 
         body {
@@ -67,12 +68,33 @@
             color: #ffc600;
         }
 
+        footer {
+            position:absolute;
+            bottom:0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: #ffc600;
+        }
+
+
+    
+
         
     </style>
 </head>
 
-<body class="center">
-    <div class="keys">
+<body class="">
+    <div class="keys center">
         <div data-key="65" class="key">
             <kbd>A</kbd>
             <span class="sound">clap</span>
@@ -120,6 +142,12 @@
     <audio data-key="74" src="sounds/snare.wav"></audio>
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
+
+
+
+    <footer>
+        &copy; <a href="https://arefin-aareef.github.io/portfolio#" title="Portfolio" target="_blank">arefin-aareef</a> | 2022
+    </footer>
 
     <script>
 
