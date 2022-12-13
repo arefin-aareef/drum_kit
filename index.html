@@ -12,16 +12,22 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+
+            
         }
 
         body {
             min-height: 100vh;
-            /* background: linear-gradient(to bottom, #33ccff 0%, #ffc600 100%); */
             
-            background-image: url('/img/drum.jpeg');
+            /* background-image: url('/img/drum.jpeg');
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat; */
 
+        }
+
+        .bg {
+            
+            background: linear-gradient(to bottom, #33ccff 0%, #ffc600 100%);
         }
 
         kbd {
@@ -31,6 +37,7 @@
 
         .keys {
             display: flex;
+            
         }
 
         .key {
@@ -88,7 +95,7 @@
 
 </head>
 
-<body>
+<body class="bg">
     <div class="keys center">
         <div data-key="65" class="key">
             <kbd>A</kbd>
